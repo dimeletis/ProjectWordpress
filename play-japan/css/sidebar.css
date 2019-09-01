@@ -1,0 +1,17 @@
+aside {
+    float: left;
+    width: 30%;
+    background-color: lightblue;
+    color: green;
+    box-shadow: inset 27px 0 51px -18px black;
+}
+    
+    aside ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+        aside ul li a:hover {
+            transition: 0.5s;
+            color: red;
+    }
